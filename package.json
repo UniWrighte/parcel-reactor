@@ -1,0 +1,19 @@
+{
+  "name": "parcel-reactor",
+  "version": "1.0.0",
+  "description": "Setup a react template using parcel quickly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parcel",
+    "react",
+    "create-react-app"
+  ],
+  "author": "David Kamer",
+  "license": "MIT",
+  "bin": {
+	  "parcel-reactor": "./index.js"
+  }
+}
