@@ -27,3 +27,5 @@ This was tested on Linux (Ubuntu 18.04) after running:
 Your results may very on other operating systems or with non-global installs of parcel. 
 
 Enjoy!
+
+https://github.com/UniWrighte/parcel-reactor
