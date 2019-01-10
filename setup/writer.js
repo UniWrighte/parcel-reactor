@@ -3,9 +3,9 @@ const {createFile} = require('./structure');
 const {package} = require('./placer');
 
 
-exports.makePackage = function(name, installPath){
+exports.makePackage = function(name, installPath, test){
 
-	return createFile(`${name}/package.json`, JSON.stringify(package(name, installPath), null, 4));
+	return createFile(`${name}/package.json`, JSON.stringify(package(name, installPath, test), null, 4));
 
 }
 	

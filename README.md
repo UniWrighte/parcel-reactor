@@ -15,6 +15,19 @@ now go to the directory where you want to initilize your repository and run:
     cd hello-world
     
     npm i
+
+Version 1.1.0 or newer you can add testing:
+    
+    parcel-reactor hello-world -t
+
+or
+
+    parcel-reactor -t hello-world
+
+This will setup testing with enzyme and jest in your project.
+To make sure the tests are working run:
+
+    npm run test
     
 You may need to install parcel, follow the instructions here if you haven't installed parcel yet:
 
