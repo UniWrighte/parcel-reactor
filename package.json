@@ -1,6 +1,6 @@
 {
   "name": "parcel-reactor",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Setup a react template using parcel quickly",
   "main": "index.js",
   "scripts": {
