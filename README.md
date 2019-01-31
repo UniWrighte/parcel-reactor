@@ -1,8 +1,17 @@
 # parcel-reactor
 parcel-react bootstrapper
 
+Version 1.2.0: Added css import capibilites and support for syntax with test option build. 
+
 Easy way to get a React project off the ground using parcel. Gives nearly the same functionality as create-react-app.
 
+NOTE: if you are new to JavaScript or React, you might want to run:
+
+    rm .eslintrc.json
+
+or adjust these settings.
+
+Eslint settings are relatively strict by default. 
 
 run:
 

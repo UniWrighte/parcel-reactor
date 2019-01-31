@@ -20,7 +20,7 @@ exports.createFile = function(name, data){
         });
 }
 
-exports.createBasicFiles = function(name, path, test, files=['index.html', 'src/App.js', 'src/index.js', '.babelrc', '.eslintrc.json']){
+exports.createBasicFiles = function(name, path, test, files=['index.html', 'src/App.js', 'src/index.js', '.babelrc', '.eslintrc.json', 'src/App.css']){
 	
 	const p = path + (test ? '/static/parcel-react-test/' : '/static/parcel-react/');
 	(test ? files.concat(['setupTests.js', 'src/App.test.js']) : files).forEach((file)=>{
